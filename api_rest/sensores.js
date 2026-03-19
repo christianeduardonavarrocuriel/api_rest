@@ -1,5 +1,5 @@
 function getDatos() {
-  var sensores = new EventSource("firebase/sensores/sucursal1.json");
+  var sensores = new EventSource("https://apijs-c6fd3-default-rtdb.firebaseio.com/sucursal1.json");
 
   sensores.addEventListener("put", function (e) {
     var json = JSON.parse(e.data);

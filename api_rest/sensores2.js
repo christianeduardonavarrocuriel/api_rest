@@ -1,5 +1,5 @@
 async function getDatos() {
-  const url = "firebase/sensores/sucursal1.json";
+  const url = "https://apijs-c6fd3-default-rtdb.firebaseio.com/sucursal1.json";
 
   try {
     const response = await fetch(url);
@@ -20,4 +20,5 @@ async function getDatos() {
   }
 }
 // Llamar a la función para obtener datos cada 5 segundos
-//setInterval(getDatos, 5000);
+
+setInterval(getDatos, 5000);
