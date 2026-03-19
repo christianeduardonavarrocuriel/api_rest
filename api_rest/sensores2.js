@@ -1,5 +1,5 @@
 async function getDatos() {
-  const url = "https://apijs-c6fd3-default-rtdb.firebaseio.com/sucursal1.json";
+  const url = "url_sensores"; // Reemplaza "url_sensores" con la URL de tu endpoint de sensores
 
   try {
     const response = await fetch(url);

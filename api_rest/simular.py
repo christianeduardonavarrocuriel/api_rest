@@ -3,7 +3,7 @@ import json
 import random
 import time
 
-url = "https://apijs-c6fd3-default-rtdb.firebaseio.com/sucursal1.json"
+url = "url_sensores" # Reemplaza "url_sensores" con la URL de tu endpoint de sensores
 
 def get_sensores():
     response = requests.get(url)
